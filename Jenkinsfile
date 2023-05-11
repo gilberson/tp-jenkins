@@ -9,7 +9,7 @@ pipeline {
 
     stage('stage2') {
       steps {
-        sh 'mkdir F1'
+        sh 'dpkg -l > /tmp/paquets'
       }
     }
 
