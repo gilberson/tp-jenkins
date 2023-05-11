@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        sh '''date
-'''
+        sh 'sudo apt-get -y update && sudo apt-get -y upgrade'
       }
     }
 
