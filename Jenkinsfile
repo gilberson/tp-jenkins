@@ -18,7 +18,10 @@ sudo  apt-get -y update && sudo apt-get -y upgrade'''
     stage('stage3') {
       steps {
         sh '''if 
-[`grep -c git /tmp/paquets` -ne 0]
+[ `grep -c git /tmp/paquets` -ne 0 ]
+
+
+
 
 
 
